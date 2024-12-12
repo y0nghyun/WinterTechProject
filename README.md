@@ -1,5 +1,5 @@
 # WinterTechProject
-**레디스, 카프카, 도커, e2c, postgresql 과 같은 기술 사용에 집중해 보는 프로젝트**
+**레디스, 카프카, 도커, ec2, postgresql 과 같은 기술 사용에 집중해 보는 프로젝트**
 
 | **주간 Workflow**
 
