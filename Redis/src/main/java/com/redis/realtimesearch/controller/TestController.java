@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/redis")
-public class testController {
+public class TestController {
 
     private final RedisTemplate<String, String> redisTemplate;
 
     @Autowired
-    public testController(RedisTemplate<String, String> redisTemplate) {
+    public TestController(RedisTemplate<String, String> redisTemplate) {
         this.redisTemplate = redisTemplate;
     }
 
