@@ -22,7 +22,7 @@ public class SearchService {
         if (keyword == null || keyword.trim().isEmpty()) {
             throw new IllegalArgumentException("Keyword cannot be null or empty");
         }
-        redisTemplate.opsForZSet().incrementScore("popular_searches", keyword.trim(), 1);
+        redisTemplate.opsForZSet().incrementScore(popularSearchesKey, keyword.trim(), 1);
         //redisTemplate.expire("popular_searches", Duration.ofDays(7)); // 7일 TTL 설정
     }
 
